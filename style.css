@@ -208,7 +208,6 @@ footer{
 }
 
 .img-novedades{
-    display: flex;
     border: 2px solid green;
     padding: 20px;
     align-items: center;
