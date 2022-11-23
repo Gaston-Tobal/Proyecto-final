@@ -1,0 +1,151 @@
+@import "component/header";
+@import "component/footer";
+@import "component/productos";
+@import "component/novedades";
+
+/* esto es un comentario*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*Mobile*/
+
+/*body{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0%;
+    padding: 0%;
+    background: url(imagenes/background.jpg);
+    background-size: %;   
+    
+}*/
+/* etiqueta A=LINK*/
+a{
+    color: inherit;
+    text-decoration: none;    
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+}
+/*Fin etiqueta A=LINK*/
+/* Main*/
+main{
+    display:block;
+    outline: 1px solid black;
+    background-image: url(imagenes/background.jpg);
+    background-size: cover;
+    
+}
+.img-main{
+    display:block;
+    justify-content:space-around;
+    outline: solid brown 3px;
+    align-items: center;
+    margin-left: 600px;
+    margin-top: 10px;
+    margin-right: 800px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+.parrafo{
+    color: red;
+    padding: 30px;
+    text-align: center;
+    font-family: fantasy;
+}
+/*section*/
+.img-section{
+    border: 2px solid grey;
+    padding: 15px;
+    margin-left: 600px;
+    margin-top: 10px;
+    margin-right: 400px;
+    margin-bottom: 10px;
+}
+/*Fin section*/
+/* fin de index */
+
+/* Novedades */
+.novedades-1{
+    border: 2px solid red;
+    display: flex;
+    column-count: 4;
+}
+#aside-1{
+    border: 2px solid green;
+    justify-items: flex-start;
+    padding: 20px;
+    float: right;
+    column-count: 4;
+    height: 100%;
+    width: 40%;
+}
+#imagenes-rtx{
+    display: flex;
+    margin-left: 800px;
+}
+.parrafo-novedades{
+    color: white;
+    display: flex;
+    justify-items: flex-start;
+    align-content: row;
+    font-size: 20px;
+    padding: 15fr;
+    margin-top: 15px;
+}
+
+.img-novedades{
+    border: 2px solid green;
+    padding: 20px;
+    align-items: center;
+    
+}
+.center-novedades{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    align-items: center;
+}
+
+.novedades-2{
+    border: 2px solid purple;
+    display: flex;
+}
+
+#asiede-2{
+    border: 2px solid black;
+    float: left;
+    column-count: 4;
+    padding: 20px;
+    overflow: hidden;
+}
+/* Fin de Novedades*/
+/* Servicios*/
+.parrafo-servicios{
+    border: 2px solid red;
+    padding: 300px;
+    display: flex;
+    
+}
+.contenido-servicios-1{
+    text-size-adjust: 30px;
+    color: red;
+    padding: 200px;
+    justify-content: center;
+}
+.parrafo-servicios-2{
+    border: 2px solid red;
+    padding: 300px;
+    display: flex;
+}
+.contenido-servicios-2{
+    text-size-adjust: 30px;
+    color: red;
+    padding: 200px;
+    justify-content: center;
+
+}
+/*La luna*/

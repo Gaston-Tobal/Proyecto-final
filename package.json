@@ -1,0 +1,22 @@
+{
+  "name": "pre-entrega-n1-gaston-tobal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaston-Tobal/Proyecto-final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gaston-Tobal/Proyecto-final/issues"
+  },
+  "homepage": "https://github.com/Gaston-Tobal/Proyecto-final#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

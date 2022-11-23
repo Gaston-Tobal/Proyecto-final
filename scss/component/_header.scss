@@ -1,0 +1,38 @@
+/*header*/
+header{
+    background-image: url(imagenes/background-3.jpg);
+    outline: solid black 1 px;
+    font-size: 30px;
+}
+.nav-logo{
+    outline: 2px solid black;
+    background-color: black;
+    display: flex;
+    text-decoration: none;
+}
+.logo{
+    outline: 20px solid yellow;
+    text-decoration: none;
+}
+.nav-bar{
+    outline: solid red;
+    padding: 2%;
+    
+}
+.ul-bar{
+    outline:solid green;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    background-color:black;
+    padding:3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    list-style-type:none;
+}
+.nav-li{
+    display: flex;
+    padding: 1.2%;
+    
+}
+/*Fin header*/

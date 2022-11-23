@@ -1,0 +1,29 @@
+/* Productos*/
+.intel{
+    display: flex;
+    justify-content: space-around;
+    padding: 300px;
+    flex-wrap: wrap;
+}
+.intel-productos{
+    display: flex;
+    
+}
+.amd{
+    display: flex;
+    padding: 300px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.ryzen-productos{
+    display: flex;
+}
+.ryzen-productos:hover{
+     transform: scale(1.5);
+     transition: all 0.5s;
+}
+.intel-productos:hover{
+    transform: scale(1.5);
+    transition: all 0.5s;
+}
