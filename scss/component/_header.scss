@@ -1,38 +1,49 @@
-/*header*/
-header{
-    background-image: url(imagenes/background-3.jpg);
-    outline: solid black 1 px;
-    font-size: 30px;
-}
-.nav-logo{
-    outline: 2px solid black;
-    background-color: black;
+header {
     display: flex;
-    text-decoration: none;
-}
-.logo{
-    outline: 20px solid yellow;
-    text-decoration: none;
-}
-.nav-bar{
-    outline: solid red;
-    padding: 2%;
-    
-}
-.ul-bar{
-    outline:solid green;
-    text-decoration: none;
-    color:rgb(255, 255, 255);
-    background-color:black;
-    padding:3%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  header img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  header ul {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    list-style-type:none;
-}
-.nav-li{
-    display: flex;
-    padding: 1.2%;
-    
-}
-/*Fin header*/
+    align-items: center;
+    list-style: none;
+  }
+  
+  header ul li {
+    margin: 0 10px;
+    text-transform: uppercase;
+  }
+  
+  header ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* media query ipad */
+  @media (max-width: 768px) {
+    header {
+      background-image: url("../imagenes/background-3.jpg");
+      flex-direction: column;
+      align-items: center;
+    }
+    header ul {
+      margin: 15px;
+    }
+  
+    header ul li a {
+      font-size: 14px;
+    }
+  }

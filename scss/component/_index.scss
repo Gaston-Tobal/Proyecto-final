@@ -1,38 +1,3 @@
-@import "component/header";
-@import "component/footer";
-@import "component/productos";
-@import "component/novedades";
-@import "component/servicios";
-
-/* esto es un comentario*/
-*{
-    margin: 0px;
-    padding: 0px;
-}
-/*Mobile*/
-
-/*body{
-    max-width: 100%;
-    max-height: 100%;
-    margin: 0%;
-    padding: 0%;
-    background: url(imagenes/background.jpg);
-    background-size: %;   
-    
-}*/
-/* etiqueta A=LINK*/
-a{
-    color: inherit;
-    text-decoration: none;    
-}
-a:visited{
-    text-decoration: none;
-}
-a:hover{
-    color:red;
-    text-decoration: none;
-}
-/*Fin etiqueta A=LINK*/
 /* Main*/
 main{
     display:block;
@@ -67,5 +32,3 @@ main{
     margin-right: 400px;
     margin-bottom: 10px;
 }
-/*Fin section*/
-/* fin de index */

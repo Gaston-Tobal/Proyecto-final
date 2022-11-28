@@ -1,9 +1,9 @@
 /*Footer*/
 footer{
     display: flex;
-    border: 2px solid blue;
     background-color: black;
     justify-content: space-around;
+    align-items: center;
     font-size: 30px;
     margin: 0%;
     padding: 0%;
@@ -21,13 +21,9 @@ footer{
     list-style-type: none;
 }
 .ft-img{
-    display: flex;
-    justify-content: space-around;
     max-height: 300px;
 }
 #mapa{
-    display: flex;
-    justify-content: space-around;
     max-width: 250px;
     max-height: 250px;
     margin: 0%;
@@ -44,7 +40,20 @@ footer{
     margin-left: 30px;
     margin-right: 1px;
 }
-
-
-
 /*Fin Footer*/
+
+  /* media query ipad */
+  @media (max-width: 768px) {
+    footer {
+      background-image: url("../imagenes/background-3.jpg");
+      flex-direction: column;
+      align-items: center;
+      padding: 25px 0;
+    }
+    .ft-nav{
+        margin: 25px 0;
+    }
+    #mapa{
+        display: none;
+    }
+}
