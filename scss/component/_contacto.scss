@@ -1,0 +1,20 @@
+.container-video{
+    display: flex;
+    justify-content: center;
+    align-items: inherit;
+}
+ #video{
+    display: flex;
+    max-width: 500px;
+    max-height: 500px;
+    padding: 1%;
+}
+.texto-contacto {
+    color: black;
+    display: flex;
+    justify-items: flex-start;
+    align-content: row;
+    font-size: 30px;
+    padding: 15fr;
+    
+}

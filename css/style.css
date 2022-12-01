@@ -92,6 +92,7 @@ footer {
   max-width: 250px;
   max-height: 250px;
   margin: 0%;
+  padding: 1%;
 }
 
 #instagram {
@@ -294,31 +295,89 @@ footer {
   }
 }
 .parrafo-servicios {
-  border: 2px solid red;
   padding: 300px;
   display: flex;
 }
 
 .contenido-servicios-1 {
-  text-size-adjust: 30px;
-  color: red;
+  font-size: large;
+  text-size-adjust: 400px;
+  color: black;
   padding: 200px;
   justify-content: center;
+  font-family: inherit;
 }
 
 .parrafo-servicios-2 {
-  border: 2px solid red;
-  padding: 300px;
+  color: black;
   display: flex;
+  justify-items: flex-start;
+  align-content: row;
+  font-size: 20px;
+  padding: 15fr;
+  margin-top: 15px;
 }
 
 .contenido-servicios-2 {
-  text-size-adjust: 30px;
-  color: red;
+  font-size: large;
+  text-size-adjust: 400px;
+  color: black;
   padding: 200px;
   justify-content: center;
+  font-family: inherit;
 }
 
+.container-video-servicios {
+  display: flex;
+  justify-content: center;
+  align-items: inherit;
+}
+
+.check-list {
+  color: black;
+  display: flex;
+  justify-items: flex-start;
+  align-content: row;
+  font-size: 30px;
+  padding: 15fr;
+  margin-left: 30px;
+  padding: 1%;
+}
+
+@media (max-width: 600px) {
+  .check-list {
+    color: black;
+    display: flex;
+    justify-items: flex-start;
+    align-content: row;
+    font-size: 30px;
+    padding: 15fr;
+    margin-left: 30px;
+    padding: 1%;
+  }
+  .container-video-servicios {
+    display: flex;
+    justify-content: center;
+    align-items: inherit;
+  }
+  .parrafo-servicios-2 {
+    color: black;
+    display: flex;
+    justify-items: flex-start;
+    align-content: row;
+    font-size: 20px;
+    padding: 15fr;
+    margin-top: 15px;
+  }
+  .contenido-servicios-1 {
+    font-size: large;
+    text-size-adjust: 400px;
+    color: black;
+    padding: 200px;
+    justify-content: center;
+    font-family: inherit;
+  }
+}
 /* Main*/
 main {
   background-color: grey;
@@ -391,6 +450,28 @@ main {
     font-family: fantasy;
   }
 }
+.container-video {
+  display: flex;
+  justify-content: center;
+  align-items: inherit;
+}
+
+#video {
+  display: flex;
+  max-width: 500px;
+  max-height: 500px;
+  padding: 1%;
+}
+
+.texto-contacto {
+  color: black;
+  display: flex;
+  justify-items: flex-start;
+  align-content: row;
+  font-size: 30px;
+  padding: 15fr;
+}
+
 /* esto es un comentario*/
 * {
   margin: 0px;
