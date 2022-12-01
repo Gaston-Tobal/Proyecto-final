@@ -57,3 +57,18 @@ footer{
         display: none;
     }
 }
+@media only screen and (max-width: 600px){
+    footer {
+        background-image: url("../imagenes/background-3.jpg");
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 0;
+      }
+      .ft-nav{
+          margin: 25px 0;
+      }
+      #mapa{
+          display: none;
+      }
+    
+}

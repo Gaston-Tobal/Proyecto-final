@@ -46,6 +46,19 @@ header ul li a:hover {
     font-size: 14px;
   }
 }
+@media (max-width: 600px) {
+  header {
+    background-image: url("../imagenes/background-3.jpg");
+    flex-direction: column;
+    align-items: center;
+  }
+  header ul {
+    margin: 15px;
+  }
+  header ul li a {
+    font-size: 14px;
+  }
+}
 /*Footer*/
 footer {
   display: flex;
@@ -99,6 +112,20 @@ footer {
 /*Fin Footer*/
 /* media query ipad */
 @media (max-width: 768px) {
+  footer {
+    background-image: url("../imagenes/background-3.jpg");
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0;
+  }
+  .ft-nav {
+    margin: 25px 0;
+  }
+  #mapa {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
   footer {
     background-image: url("../imagenes/background-3.jpg");
     flex-direction: column;
@@ -292,6 +319,78 @@ footer {
   justify-content: center;
 }
 
+/* Main*/
+main {
+  background-color: grey;
+  background-size: cover;
+}
+
+.img-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.parrafo {
+  color: whitesmoke;
+  padding: 30px;
+  text-align: center;
+  font-family: fantasy;
+}
+
+/*section*/
+.img-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 1100px) {
+  .img-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5pxs;
+  }
+  .img-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  main {
+    background-color: #F0F8FF;
+    background-size: cover;
+  }
+  .parrafo {
+    color: #000000;
+    padding: 30px;
+    text-align: center;
+    font-family: fantasy;
+  }
+}
+@media (max-width: 768px) {
+  .img-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+  }
+  .img-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  main {
+    background-color: #F0F8FF;
+    background-size: cover;
+  }
+  .parrafo {
+    color: #000000;
+    padding: 30px;
+    text-align: center;
+    font-family: fantasy;
+  }
+}
 /* esto es un comentario*/
 * {
   margin: 0px;
@@ -324,44 +423,5 @@ a:hover {
 }
 
 /*Fin etiqueta A=LINK*/
-/* Main*/
-main {
-  display: block;
-  outline: 1px solid black;
-  background-image: url(imagenes/background.jpg);
-  background-size: cover;
-}
-
-.img-main {
-  display: block;
-  justify-content: space-around;
-  outline: solid brown 3px;
-  align-items: center;
-  margin-left: 600px;
-  margin-top: 10px;
-  margin-right: 800px;
-  margin-bottom: 10px;
-  padding: 15px;
-}
-
-.parrafo {
-  color: red;
-  padding: 30px;
-  text-align: center;
-  font-family: fantasy;
-}
-
-/*section*/
-.img-section {
-  border: 2px solid grey;
-  padding: 15px;
-  margin-left: 600px;
-  margin-top: 10px;
-  margin-right: 400px;
-  margin-bottom: 10px;
-}
-
-/*Fin section*/
-/* fin de index */
 
 /*# sourceMappingURL=style.css.map */

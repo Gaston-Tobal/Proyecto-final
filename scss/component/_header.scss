@@ -47,3 +47,20 @@ header {
       font-size: 14px;
     }
   }
+  
+  @media (max-width: 600px){
+    header {
+      background-image: url("../imagenes/background-3.jpg");
+      flex-direction: column;
+      align-items: center;
+    }
+    header ul {
+      margin: 15px;
+    }
+  
+    header ul li a {
+      font-size: 14px;
+    }
+
+  }
+  

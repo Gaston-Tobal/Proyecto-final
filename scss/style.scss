@@ -3,6 +3,7 @@
 @import "component/productos";
 @import "component/novedades";
 @import "component/servicios";
+@import "component/index";
 
 /* esto es un comentario*/
 *{
@@ -33,39 +34,3 @@ a:hover{
     text-decoration: none;
 }
 /*Fin etiqueta A=LINK*/
-/* Main*/
-main{
-    display:block;
-    outline: 1px solid black;
-    background-image: url(imagenes/background.jpg);
-    background-size: cover;
-    
-}
-.img-main{
-    display:block;
-    justify-content:space-around;
-    outline: solid brown 3px;
-    align-items: center;
-    margin-left: 600px;
-    margin-top: 10px;
-    margin-right: 800px;
-    margin-bottom: 10px;
-    padding: 15px;
-}
-.parrafo{
-    color: red;
-    padding: 30px;
-    text-align: center;
-    font-family: fantasy;
-}
-/*section*/
-.img-section{
-    border: 2px solid grey;
-    padding: 15px;
-    margin-left: 600px;
-    margin-top: 10px;
-    margin-right: 400px;
-    margin-bottom: 10px;
-}
-/*Fin section*/
-/* fin de index */

@@ -1,34 +1,76 @@
+
 /* Main*/
 main{
-    display:block;
-    outline: 1px solid black;
-    background-image: url(imagenes/background.jpg);
+    background-color: grey;
     background-size: cover;
     
 }
 .img-main{
-    display:block;
+    display:flex;
     justify-content:space-around;
-    outline: solid brown 3px;
     align-items: center;
-    margin-left: 600px;
-    margin-top: 10px;
-    margin-right: 800px;
-    margin-bottom: 10px;
-    padding: 15px;
+    
 }
 .parrafo{
-    color: red;
+    color: whitesmoke;
     padding: 30px;
     text-align: center;
     font-family: fantasy;
 }
 /*section*/
 .img-section{
-    border: 2px solid grey;
-    padding: 15px;
-    margin-left: 600px;
-    margin-top: 10px;
-    margin-right: 400px;
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+@media (max-width: 1100px){
+    .img-main{
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        padding: 5pxs;
+    }
+    .img-section{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    main{
+        background-color:#F0F8FF;
+        background-size: cover;
+        
+    }
+    .parrafo{
+        color: #000000;
+        padding: 30px;
+        text-align: center;
+        font-family: fantasy;
+    }
+
+}
+@media (max-width: 768px){
+    .img-main{
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        padding: 5px;
+    }
+    .img-section{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    main{
+        background-color:#F0F8FF;
+        background-size: cover;
+        
+    }
+    .parrafo{
+        color: #000000;
+        padding: 30px;
+        text-align: center;
+        font-family: fantasy;
+    }
+
 }
